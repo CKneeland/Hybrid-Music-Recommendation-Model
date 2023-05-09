@@ -12,7 +12,7 @@ To run these files, the following packages will be needed:
 - `numpy`
 - `sklearn`
 
-The file called `Hybrid Recommendations` queries all nodes and relationships from the graph database, and when given a playlist to make recommendations with, returns the top k recommendations. 
+The file called `Hybrid (CF and CBF) Recommendation Model` queries all nodes and relationships from the graph database, and when given a playlist to make recommendations with, returns the top k recommendations. 
 
 To run this file, the following packages will be needed:
 - `py2neo`
@@ -20,3 +20,5 @@ To run this file, the following packages will be needed:
 - `heapq`
 - `collections`
 - `spotipy`
+
+The file called `Hybrid Recommendation Model Evaluation` runs similar to the actual recommendation model, but is used to provide evaluation metrics on the recommendations themselves.
